@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #060810;
+    font-family: "Inter", sans-serif;
+}
+
+.header{
+    margin: 40px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #060810;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.menu
+{
+    display: flex;
+    gap: 40px;
+}
+
+.menu a{
+    font-weight: 300;
+}
+
+.right-panel
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.booking
+{
+    background: #87ED82;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.lang
+{
+    border-left: 1px solid;
+    padding: 0 0 0 20px;
+}
+
+.hero
+{
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 50px 0 0 0;
+    margin: 0 auto;
+}
+
+.hero-left
+{
+    padding: 100px 0 0 30px;
+    width: 70%;
+}
+
+.hero-right{
+    width: 1000px;
+}
+
+.hero-right img{
+    width: 100%;
+}
+
+h1.heroTitle
+{
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.heroDesc
+{
+    font-size: 20px;
+    margin: 24px 0 0 0;
+    text-align: left;
+    line-height: 35px;
+}
+
+.rating
+{
+    margin: 40px 0;
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+}
+
+.ratingNum
+{
+    margin:5px 0 0 0;
+    font-size: 19px;
+    color: #000;
+    font-weight:500;
+}
+
+.ratingText
+{
+    font-size: 15px;
+    padding: 0 0 0 10px;
+    font-weight: 500;
+    color: #7E8180
+}
+
+.log
+{
+    margin: 10px 0 ;
+    display: flex;
+    /* gap: 50px; */
+}
+
+
+h2.logTitle
+{
+    font-size: 42px;
+    font-weight: 600;
+    padding: 0 0 10px 0;
+}
+
+.activity_percentage
+{
+    border-color: #7E8180;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    padding: 0 60px 30px 0;
+}
+
+.activity_app
+{
+    border-color: #7E8180;
+    border-bottom: 1px solid;
+    padding: 0 0 30px 50px;
+}
+
